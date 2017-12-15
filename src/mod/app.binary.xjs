@@ -1,0 +1,7 @@
+{View CODE class: binary
+  view.attribs: {
+    value: {any []}
+  }
+
+  {Bind value converter: convertToHexa}
+}

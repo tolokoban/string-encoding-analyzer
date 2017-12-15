@@ -1,0 +1,14 @@
+{View DIV class: app-inpup
+  view.attribs: {
+    text: {string Société}
+    binary: {any []}
+  }
+
+  [
+    {tfw.view.textbox
+      wide: true
+      value: {Bind text}
+      label: "UTF-8 text:"}
+    {app.binary value:binary}
+  ]
+}
